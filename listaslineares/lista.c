@@ -51,3 +51,8 @@ void add(Lista *l, int numero){
 	
 	l->tamanho = l-tamanho+1;
 }
+
+int size(Lista *l){
+	return l->tamanho;
+}
+
