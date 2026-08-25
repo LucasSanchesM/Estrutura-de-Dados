@@ -36,5 +36,18 @@ void add(Lista *l, int numero){
 		e->valor = numero;
 		e->proximo = NULL;
 		l->inicio = e;
+	}else{
+		Elemento *e = malloc(sizeof(Elemento));
+		if(e == NULL){
+			printf("Erro de alocação de memoria");
+			return;
+		}
+		
+		Elemento *antigo_inicio = l->inicio;
+		e->valor = numero;
+		l->inicio = e;
+		e->proximo = antigo_inicio;
 	}
+	
+	l->tamanho = l-tamanho+1;
 }
