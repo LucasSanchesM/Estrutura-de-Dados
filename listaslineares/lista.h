@@ -63,4 +63,4 @@ int delete(Lista *l, int posicao);
 /* Liberacao de toda a memoria ocupada pela lista */
 void liberar(Lista *l);
 
-#endif;
+#endif
