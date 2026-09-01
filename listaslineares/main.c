@@ -1,12 +1,8 @@
-/*
- * main.c
- * Interface simples para testar as operacões da Lista Simples.
- */
+
 
 #include <stdio.h>
 #include <stdlib.h>
 #include "lista.h"
-
 static void menu(void) {
     printf("\n================ LISTA SIMPLES ================\n");
 	printf("1 - Adicionar no inicio\n");
