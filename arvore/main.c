@@ -24,8 +24,8 @@ int main(void) {
     No *raiz = iniciar();
     int valores[] = {4, 78, 12, 3, 65, 21, 34, 77, 98, 11};
     int quantidade = (int)(sizeof(valores) / sizeof(valores[0]));
-
-    for (int i = 0; i < quantidade; i++) {
+	int i;
+    for (i = 0; i < quantidade; i++) {
         if (inserir(&raiz, valores[i]) == -1) {
             printf("Falha ao alocar memoria.\n");
             liberar(&raiz);
