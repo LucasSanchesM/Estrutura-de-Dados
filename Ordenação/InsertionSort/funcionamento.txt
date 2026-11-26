@@ -1,0 +1,6 @@
+O Insertion Sort divide o vetor em uma parte ordenada e outra não ordenada. Inicialmente, a parte ordenada contém apenas o primeiro elemento.
+A cada passagem, o primeiro elemento da parte não ordenada (a chave) é guardado numa variável e comparado, da direita para a esquerda, com os elementos da parte ordenada.
+Enquanto o elemento comparado for maior que a chave, ele é copiado uma posição para a direita. Quando se encontra um elemento menor ou igual (ou se chega ao início),
+a chave é gravada na posição livre, e a parte ordenada cresce um elemento.
+
+Complexidade: O(n²) no pior caso (vetor em ordem decrescente) e O(n) no melhor caso (vetor já ordenado). É estável, e rápido em vetores quase ordenados.
