@@ -1,0 +1,6 @@
+A busca binária exige um vetor ordenado, pois, ao comparar o valor do meio com o buscado, sabemos em qual metade ele pode estar e descartamos a outra.
+Se o valor do meio for igual ao buscado, retornamos a posição; se for maior, chamamos a função novamente restrita à metade esquerda;
+se for menor, à metade direita, sempre ignorando o meio já comparado. Se o intervalo ficar vazio, o valor não existe no vetor.
+
+Complexidade: no pior caso, a busca linear é O(n) e a binária é O(log n), pois o intervalo cai pela metade a cada passo.
+Isso reduz muito o número de comparações em vetores grandes (cerca de 20 em 1.000.000 de elementos, contra até 1.000.000 na linear).
