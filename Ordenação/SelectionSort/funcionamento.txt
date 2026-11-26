@@ -1,0 +1,7 @@
+O Selection Sort é um algoritmo de ordenação que divide o vetor em uma parte ordenada (no início) e outra não ordenada.
+A cada passagem, ele procura o menor elemento da parte não ordenada e o troca com o elemento da primeira posição dessa parte.
+Assim, na primeira passagem o menor valor do vetor vai para a posição 0, na segunda o segundo menor vai para a posição 1, e assim por diante.
+São necessárias n - 1 passagens.
+
+Complexidade: O(n²) em todos os casos, pois sempre percorre toda a parte não ordenada em busca do menor, mesmo que o vetor já esteja ordenado.
+Em compensação, faz no máximo n - 1 trocas.
