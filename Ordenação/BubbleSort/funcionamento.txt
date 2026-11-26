@@ -1,0 +1,5 @@
+O Bubble Sort é um algoritmo de ordenação que realiza passagens pelo vetor. Em cada passagem, compara cada elemento com o vizinho da direita e, se o da esquerda for maior, troca os dois de posição.
+Dessa forma, o maior elemento do trecho percorrido "borbulha" até o final: na primeira passagem, o maior valor do vetor fica na última posição; na segunda, o segundo maior fica na penúltima,
+e assim por diante. A cada passagem, o trecho percorrido diminui, pois o final já está ordenado. São necessárias no máximo n - 1 passagens.
+
+Complexidade: O(n²) no pior caso. Com a otimização que interrompe o algoritmo quando uma passagem não realiza trocas, o melhor caso (vetor já ordenado) é O(n).
