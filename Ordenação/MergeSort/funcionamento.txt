@@ -1,0 +1,4 @@
+O merge sort é um algoritmo de ordenação do tipo dividir para conquistar: divide o vetor ao meio recursivamente até restarem partes de 1 elemento,
+e depois vai intercalando (merge) pares de partes já ordenadas, produzindo partes maiores ordenadas, até reconstruir o vetor inteiro ordenado.
+Sua complexidade de tempo é O(n log n) em todos os casos (melhor, médio e pior), pois existem log n níveis de divisão e, em cada nível, o merge percorre n elementos.
+Sua complexidade de espaço é O(n), devido ao vetor auxiliar usado na junção.
